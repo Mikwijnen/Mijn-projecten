@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Industrious template</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/template_style.css">
+
+    <script>
+        function openNav() {
+            document.getElementById('mySidenav').style.width = '300px';
+        }
+
+        function closeNav() {
+            document.getElementById('mySidenav').style.width = '0';
+        }
+    </script>
+</head>
+
+<header>
+    <nav id="navbar" class="navbar-dark">
+        <a href="#" id="logo">Industrious</a>
+        <button onclick="openNav()" type="button" id="hamburger-button">☰ Menu</button>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <ul id="main-menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">☰ Menu</a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <section id="banner">
+        <h1>INDUSTRIOUS</h1>
+        <p>A responsive business oriented template with a banner designed by SOMEONE and released under the Creative Commons License.</p>
+    </section>
+</header>
+
+<main>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 order-last order-md-first">
+            <h1 style="text-align: left">Contact Us</h1>
+
+            <form>
+                <div class="form-group" style="text-align: left">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter fullname">
+                </div>
+                <div class="form-group" style="text-align: left">
+                    <label for="exampleFormControlInput1">Email adress</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter email">
+                    <p>We will never share your email with anyone else.</p>
+                </div>
+                <div class="form-group" style="text-align: left">
+                    <label for="exampleFormControlInput1">Telephone</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Enter telephonenumber">
+                </div>
+                <div class="form-group" style="text-align: left">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check" style="text-align: left">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        I've read and accept the therms of conditions
+                    </label>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" style="">Send</button>
+            </form>
+        </div>
+        <div class="col-md-6 order-first order-md-last">
+
+    <h1 style="text-align: left">Industrius</h1>
+    <p style="text-align: left">Street Name 123</p>
+    <p style="text-align: left">1234 AB  City</p>
+    <p style="text-align: left">Netherlands</p>
+
+    <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 200px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>
+    </div>
+
+    <!--Google Maps-->
+    </div>
+    </div>
+    </div>
+</div>
+</main>
+
+
+<footer>
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-md-12">
+            <h4>ACCUMSAN MONTES VIVERRA</h4>
+            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4>SEM TURPIS AMET SEMPER</h4>
+            <ul>
+                <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+                <li><a href="#">Etiam vel lorem sed amet.</a></li>
+                <li><a href="#">Felis enim feugiat viverra.</a></li>
+                <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4>MAGNA SED IPSUM</h4>
+            <ul id="social-icons">
+                <li><a href="#"><img src="assets/img/social-twitter.png" alt="Icon Twitter">Twitter</a></li>
+                <li><a href="#"><img src="assets/img/social-facebook.png" alt="Icon Facebook">Facebook</a></li>
+                <li><a href="#"><img src="assets/img/social-instagram.png" alt="Icon Instagram">Instagram</a></li>
+                <li><a href="#"><img src="assets/img/social-github.png" alt="Icon Github">Github</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <p id="disclaimer">&copy; Untitled. Photos Unsplash. Video Coverr</p>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+</body>
+</html>
